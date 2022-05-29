@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    background: top / cover url(../img/packing_bag.gif);
+}
+
+h1 {
+    padding-top: 100px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    z-index: 10;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+ul li {
+    height: 128px;
+    border: 5px solid black;
+    list-style-type: none;
+}
+
+ul li img {
+    position: relative;
+    height: 120px;
+}
+
+#location {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        font-size: 30px;   
+        font-weight:700;   
+        text-transform: uppercase;
+}
